@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Demo JavaScript</title>
+  </head>
+  <body>
+    <h1>Presentacion de nombres</h1>
+    <p id="resultadoNombre"></p>
+    <p id="resultadoApellidos"></p>
+    
+    <script type="text/javascript" charset="utf-8">
+      function suma(a, b){
+        return a + b;
+      }
+
+      function resta(a, b){
+        return a - b      
+      }
+      var entrada1 = window.prompt("Escriba el primer valor: ", "0");
+      var entrada2 = window.prompt("Escriba el segundo valor: ", "0");
+
+      document.getElementById("resultadoNombre").innerHTML = "<b><h1>Su nombre \
+ es: " + entrada1 + "</b></h2>" + "<b><h2> Su apellido es: "+ entrada2 + "</b></h2>" ;
+      document.getElementById("resultadoApellidos").innerText = "<b><h1>Su nombre \
+ es: " + entrada1 + "</b></h1>" + "<b><h2> Su apellido es: "+ entrada2 + "</b></h2>" ;
+
+      console.log(c);
+    </script>
+  </body>
+</html>
